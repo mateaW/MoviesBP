@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB11E4B7-A21B-C0AE-DA2A-D1AA5B70CFE8" containerWithKeyObject="509B3FC4-C5E2-AA47-F2F6-6E0C69B9DC01" localFKIndex="A75D50B7-A346-5C89-9844-71A45445B7F8" name="RACUNI_PLANOVI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>B21D3B75-35E0-06A4-1E0E-8C3BD98FE72B</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F890BD4-45C8-AD45-A576-4BDA657DEC70</referredTableID>
+<keyObject>421821CB-E4DB-3332-43AD-100A20775E26</keyObject>
+<referredKeyID>421821CB-E4DB-3332-43AD-100A20775E26</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

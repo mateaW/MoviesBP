@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30799388-7BC7-E7CD-6001-978840294F6E" name="ZANROVI_SERIJE">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>1096BBE7-0E40-2BBB-090B-23269FB2D055</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZANROVI_ID_Zanra" id="52059F7A-E0D0-E799-46F7-28595460C93F">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>67F48859-12B4-0AD0-14D8-F00FFB35ADFA</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0236CC06-2DD6-4712-1511-EF2D61D757C1" referredColumn="67DCFD5A-659E-0EAF-D053-43F1D01DB700"/>
+</associations>
+</Column>
+<Column name="SERIJE_ID_Serije" id="79F6745F-5E37-E7A7-42FC-1D678C8D0A5D">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>86FBB13C-822A-6C2C-0A28-8D76BA28A864</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C9DE77F-6380-90AF-1377-13BC0CC093B4" referredColumn="79049D2F-F372-A55F-4110-E080E1F159BC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3355A9A6-5812-82DA-574C-953A0464B7ED" name="ZANROVI_SERIJE_PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>23D950DA-5622-811C-C48B-1CE2C98B4D21</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52059F7A-E0D0-E799-46F7-28595460C93F"/>
+<colUsage columnID="79F6745F-5E37-E7A7-42FC-1D678C8D0A5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4588EBE5-0077-464B-2819-97B5BD61B2FE" name="ZANROVI_SERIJE_ZANROVI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>557E1647-8CCE-116A-76AB-15577B750EA9</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52059F7A-E0D0-E799-46F7-28595460C93F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BA55239-7D5A-F358-E481-4245A722EB73" name="ZANROVI_SERIJE_SERIJE_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>27F298F4-06F5-875E-A210-797E360456B2</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79F6745F-5E37-E7A7-42FC-1D678C8D0A5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

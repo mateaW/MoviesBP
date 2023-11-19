@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A78C4D2-11AD-2641-85EE-78B532246672" name="GLUMAC_FILM">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:32:40 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>GLUMCI_FILMOVI</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Naziv_Lika" id="E078A3B8-7CF7-B378-BDAB-E4D3C28E06FD">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:32:57 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Glumca" id="782AA051-49DE-BF25-4356-17CCC6DA6FDE">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:56:01 UTC</createdTime>
+<generatorID>F1009FFC-519E-1F04-A1B4-35548CB0483B</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>6987B1E0-D91A-431D-8781-DC1E92D8D073</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Filma" id="18472046-4BA9-CD58-B1A7-2931A43B1CA1">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:56:16 UTC</createdTime>
+<generatorID>BAC8916F-60C6-5A9C-2B4C-2CD446ABEDAD</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>78529855-D46E-D8DE-6EB1-7E7CA0824C97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98C46275-0DD8-C2C7-6FAC-041B5C049946" name="GLUMAC_FILM PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:18:45 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>782AA051-49DE-BF25-4356-17CCC6DA6FDE</attributeRef>
+<attributeRef>782AA051-49DE-BF25-4356-17CCC6DA6FDE</attributeRef>
+<attributeRef>18472046-4BA9-CD58-B1A7-2931A43B1CA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

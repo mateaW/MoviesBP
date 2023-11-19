@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="361D423D-00FB-05EC-58CE-A45FEBD3B814" name="CLANARINE">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>987497EB-5DC1-C51A-8E96-3EDC453DEF0E</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Clanarine" id="A191470E-70E9-718A-08D1-47CA238C3FFF">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>6742689C-2A7F-B0DD-C2B6-4509A5D4C5CD</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>CLANARINA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>CLANARINA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="E-Mail" id="0657929E-E8E1-23BF-6EBF-9D525E87B7E5">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>44E6ABFD-837E-8187-C0CE-2150D0FBE373</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_Mobitela" id="5C85FD15-D9EF-9945-6164-A37991DDF263">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>02C6E379-2B82-E754-48B6-ED036B22CA4F</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRZAVE_ID_Drzave" id="C11CADC5-D41B-1F10-A7C9-3BA986FD58E1">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>9B7CC1CB-013A-784D-33BB-A15AD881C97F</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EEC2C70-4D92-73E4-7179-5F5479336DC4" referredColumn="0984D0B0-1827-F3FA-C79F-262FD601D778"/>
+</associations>
+</Column>
+<Column name="PLANOVI_ID_Plana" id="A88B9E97-3582-FBCB-5E6A-D30334DEB9AC">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>56C532F3-A469-B519-3E81-33E6DC6A0BE0</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBA68D7E-A68A-A644-0006-708B8178C499" referredColumn="1F42A564-E1E5-65A8-43A8-5BFC3193DB55"/>
+</associations>
+</Column>
+<Column name="KARTICE_ID_Kartice" id="AF08CCCB-A933-D277-6C9D-60B3B4C6F8A4">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>5B117392-DD24-D1FE-1DC5-16FCA39C5184</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08EF0470-B40A-E5EB-7C49-E0039BA0F19F" referredColumn="366BB07C-4985-A206-2717-920BC8DA7B4C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E31CEDD-4482-0B00-FC19-52FB5CF601CA" name="CLANARINE_PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>53A72070-4461-DF2C-B9DA-E29EA92AC3E8</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A191470E-70E9-718A-08D1-47CA238C3FFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10437441-228D-E624-54ED-7F936BD4E3DE" name="CLANARINE_E-Mail_UN">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>1292A85E-528D-BCD3-D074-D4016C002342</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0657929E-E8E1-23BF-6EBF-9D525E87B7E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81E046E4-8A30-4DE2-0841-C2B8B4DD83F1" name="CLANARINE_Broj_Mobitela_UN">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>FCA50FA9-8E4E-A80C-EEB0-3733F39794DC</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C85FD15-D9EF-9945-6164-A37991DDF263"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6790F0C0-C325-E4C1-0A5E-E22EB37D8CD9" name="CLANARINE_DRZAVE_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>BFC5BF39-5BBE-13FB-3CDC-51CAC8BF0D04</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C11CADC5-D41B-1F10-A7C9-3BA986FD58E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6D6FDF9-E06B-09C3-0885-F2DB4D48D596" name="CLANARINE_PLANOVI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>3403D50D-2270-396A-172E-222604E518EE</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A88B9E97-3582-FBCB-5E6A-D30334DEB9AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82135058-5D15-9CE3-94FB-CE6CDE17F6B8" name="CLANARINE_KARTICE_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>EA45E19D-7CD5-1BFB-E344-93A86A22074E</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF08CCCB-A933-D277-6C9D-60B3B4C6F8A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

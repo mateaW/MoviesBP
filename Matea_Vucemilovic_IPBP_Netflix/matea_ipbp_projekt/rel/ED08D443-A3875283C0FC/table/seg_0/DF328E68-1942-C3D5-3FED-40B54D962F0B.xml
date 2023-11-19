@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF328E68-1942-C3D5-3FED-40B54D962F0B" name="ZANROVI_FILMOVI">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>216A3484-953B-2978-DF67-DF102F6ADE5E</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZANROVI_ID_Zanra" id="6F8ABE86-66CF-6E75-D1CC-AB254EBF47E5">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>837C21A3-607C-83BD-F84B-6A69AC2BEBD0</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9094114-2429-24C6-0880-CA028631776F" referredColumn="67DCFD5A-659E-0EAF-D053-43F1D01DB700"/>
+</associations>
+</Column>
+<Column name="FILMOVI_ID_Filma" id="0F846AA3-D829-EA15-69CD-9CDE3E8B2C7F">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>94BA8E5E-BD94-E94A-0595-F3326B2EFB4E</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C6D34E4-113B-7CF7-7F31-AF72F2667DC4" referredColumn="1A338199-3677-B642-6EE0-EF6A4BFBDF42"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EF02C70-96C4-F8AA-7429-3B592235E342" name="ZANROVI_FILMOVI_PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>DF3ECAF0-6254-6D3C-83EC-DA1A5BC9B5FA</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F8ABE86-66CF-6E75-D1CC-AB254EBF47E5"/>
+<colUsage columnID="0F846AA3-D829-EA15-69CD-9CDE3E8B2C7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BF87550-30E4-CE60-6493-5D976C87CEAF" name="ZANROVI_FILMOVI_ZANROVI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>1374F448-D530-491C-E277-3A672EC55EE0</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F8ABE86-66CF-6E75-D1CC-AB254EBF47E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="979A3CF2-F484-6BDE-0356-EA2E927691DA" name="ZANROVI_FILMOVI_FILMOVI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>6BDBAD4F-9C6E-A399-A5F8-E8B632238F67</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F846AA3-D829-EA15-69CD-9CDE3E8B2C7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

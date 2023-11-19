@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="0E1207DD-E6FC-EDA9-E607-DBD849E67046">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:13:56 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

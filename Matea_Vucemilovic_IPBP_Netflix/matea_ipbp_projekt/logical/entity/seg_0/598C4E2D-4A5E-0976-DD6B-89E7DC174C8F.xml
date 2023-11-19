@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="598C4E2D-4A5E-0976-DD6B-89E7DC174C8F" name="EPIZODA_KORISNIK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:48:14 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>EPIZODE_KORISNICI</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Epizode" id="7C219CCF-E206-33F0-1072-78E676914198">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:55:41 UTC</createdTime>
+<generatorID>B4CB2C31-B4E7-70F3-62B5-14D99FAE3EEE</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>0B0E5316-ADB2-774B-33DC-1BBA28B971A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Korisnika" id="E39CA232-4B28-BB44-ECCE-E4699574E081">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:57:01 UTC</createdTime>
+<generatorID>FFB7504B-E1D6-9D13-6240-0481CCDA0D51</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>AEDDACF9-B30F-278D-9BD9-8FD58B089B66</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Prijevoda" id="B30F86BF-940C-C0E5-1FF0-6EA055CC88D8">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:58:17 UTC</createdTime>
+<generatorID>A26AE478-EB91-04B9-F6AA-53C267A812E6</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>D6C5E6FD-3C22-9FB9-D9D1-0E5B0FD756BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F8486E0D-793F-22BC-BA07-6E397D1EF41C" name="EPIZODA_KORISNIK PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:18:59 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C219CCF-E206-33F0-1072-78E676914198</attributeRef>
+<attributeRef>7C219CCF-E206-33F0-1072-78E676914198</attributeRef>
+<attributeRef>E39CA232-4B28-BB44-ECCE-E4699574E081</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9AE0BD82-292A-0FE0-36DC-AE67DEED68DB" name="DRZAVA">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:35:42 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>DRZAVE</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Drzave" id="4DDBA322-7577-EF32-D12D-DA1D20E7F98E">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:35:50 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="68C606D0-737D-7B82-431A-DD81FEC15924">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:36:00 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="72F7D2E8-AF54-BE53-038F-2F7CD4ACACBA" name="DRZAVA PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:35:59 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4DDBA322-7577-EF32-D12D-DA1D20E7F98E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

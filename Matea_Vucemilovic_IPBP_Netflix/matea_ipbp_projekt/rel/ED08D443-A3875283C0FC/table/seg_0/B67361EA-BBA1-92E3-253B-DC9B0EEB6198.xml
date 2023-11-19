@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B67361EA-BBA1-92E3-253B-DC9B0EEB6198" name="DRZAVE">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>9AE0BD82-292A-0FE0-36DC-AE67DEED68DB</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Drzave" id="0984D0B0-1827-F3FA-C79F-262FD601D778">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>4DDBA322-7577-EF32-D12D-DA1D20E7F98E</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>DRZAVA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>DRZAVA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="70F37DA2-289B-1EF4-4852-DCAD43D3492B">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>68C606D0-737D-7B82-431A-DD81FEC15924</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25DEE14F-9279-AEC5-8B7D-9F8A39CC794C" name="DRZAVE_PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>72F7D2E8-AF54-BE53-038F-2F7CD4ACACBA</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0984D0B0-1827-F3FA-C79F-262FD601D778"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

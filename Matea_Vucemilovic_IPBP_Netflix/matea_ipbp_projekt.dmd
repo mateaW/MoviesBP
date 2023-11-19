@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="matea_ipbp_projekt" id="A3FA949F-2D8A-6581-3068-47B8E3621402" version="3.5">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:13:56 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A3FA949F-2D8A-6581-3068-47B8E3621402</designId>
+</OSDM_Design>

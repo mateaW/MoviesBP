@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EA0CA94-E26B-B8D2-8F64-BD13BC1729E3" name="GLUMCI_EPIZODE">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>F9DC65FA-D6E2-B56A-5167-320694EC0FC1</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Naziv_Lika" id="21B7C07C-BB6D-CAE2-2AB0-C2796805273F">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>D79ABAAE-D324-6024-CFFC-B053580CB56A</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EPIZODE_ID_Epizode" id="20A9332B-DCE9-D162-F889-1EB3202144F5">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>B2DC05C6-4604-07FB-5BD5-BA9A9711F736</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF648900-A7CA-A60D-C57E-FFD47441FF61" referredColumn="544B90DD-38CF-6168-2195-6D0142BAA3CC"/>
+</associations>
+</Column>
+<Column name="GLUMCI_ID_Glumca" id="B07EC68C-F0D4-B7A5-C20A-18326DD45A5E">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>77F4F5E3-D556-3B0F-C423-4DA9B66012B4</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3902669-F650-9F77-7877-36C78FACBF4B" referredColumn="68DE08BF-EFC1-49CD-180A-2AF7B5C93912"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="871AE6F4-4913-FFA3-7D6F-C7A60B9625DE" name="GLUMCI_EPIZODE_PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>FEF0D579-2AA5-0400-BD09-58622158C849</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20A9332B-DCE9-D162-F889-1EB3202144F5"/>
+<colUsage columnID="B07EC68C-F0D4-B7A5-C20A-18326DD45A5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6ABEB47-0ECC-5F24-F3FE-2567DB3013FE" name="GLUMCI_EPIZODE_GLUMCI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>E7A3FE55-9D2C-E8E2-3BDD-206B14928993</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B07EC68C-F0D4-B7A5-C20A-18326DD45A5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46CFEDCF-7752-AF9E-7B6D-B0E91DA85742" name="GLUMCI_EPIZODE_EPIZODE_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>7DC15059-BDF9-86FF-4E58-F7BA92209041</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20A9332B-DCE9-D162-F889-1EB3202144F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

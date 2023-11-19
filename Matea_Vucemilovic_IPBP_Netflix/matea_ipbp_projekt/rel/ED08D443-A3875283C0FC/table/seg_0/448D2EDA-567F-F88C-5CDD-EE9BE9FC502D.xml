@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="448D2EDA-567F-F88C-5CDD-EE9BE9FC502D" name="KORISNICI">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>9E26EA8C-5332-9573-C50C-7D52B312FB8F</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Korisnika" id="5EAE7A9A-9CBA-999C-F8BE-5B0F6F4052CA">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>AEDDACF9-B30F-278D-9BD9-8FD58B089B66</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>KORISNIK_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>KORISNIK_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Ime" id="207D907F-10DD-AF94-81B9-5AD57D25BF8C">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>B364F498-7BDA-A96C-8387-E01F44BF4AB5</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLANARINE_ID_Clanarine" id="2A87DFE1-2C94-7581-DD80-EC32352D6255">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>CF4B7F9D-6A69-53FB-9258-A3D392AC125F</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C82370F-1DFD-EA08-D00F-5B0CC2A3ABED" referredColumn="A191470E-70E9-718A-08D1-47CA238C3FFF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2DBF283-E109-C190-5BEF-04D56EC93FC0" name="KORISNICI_PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>E228F498-7E0E-D882-F386-F1431CB8E45F</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EAE7A9A-9CBA-999C-F8BE-5B0F6F4052CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B95023C-6205-F252-3F26-9A3EE99044DA" name="KORISNICI_CLANARINE_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>754D4E37-B58D-5CA1-3AFF-0630EC5E6DD5</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A87DFE1-2C94-7581-DD80-EC32352D6255"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

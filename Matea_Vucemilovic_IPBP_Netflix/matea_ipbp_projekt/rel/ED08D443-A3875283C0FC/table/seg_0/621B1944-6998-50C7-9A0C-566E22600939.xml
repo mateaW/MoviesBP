@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="621B1944-6998-50C7-9A0C-566E22600939" name="GLUMCI_FILMOVI">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>1A78C4D2-11AD-2641-85EE-78B532246672</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Naziv_Lika" id="EAD9F3F8-A864-CA07-6DC7-34B59F1BF866">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>E078A3B8-7CF7-B378-BDAB-E4D3C28E06FD</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GLUMCI_ID_Glumca" id="2860FBD9-D3A7-D0B1-182B-87053BF49336">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>782AA051-49DE-BF25-4356-17CCC6DA6FDE</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82F78FDD-EA7A-CFA5-05F3-0014B9724B3B" referredColumn="68DE08BF-EFC1-49CD-180A-2AF7B5C93912"/>
+</associations>
+</Column>
+<Column name="FILMOVI_ID_Filma" id="406AA92B-6120-0C3E-CA01-C6B79057FF8A">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>18472046-4BA9-CD58-B1A7-2931A43B1CA1</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E8F23F5-A0A5-A1BC-344D-078F6DA8C627" referredColumn="1A338199-3677-B642-6EE0-EF6A4BFBDF42"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0FD735D-493B-116D-ED5B-4F4B871B5D5E" name="GLUMCI_FILMOVI_PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>98C46275-0DD8-C2C7-6FAC-041B5C049946</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2860FBD9-D3A7-D0B1-182B-87053BF49336"/>
+<colUsage columnID="406AA92B-6120-0C3E-CA01-C6B79057FF8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B97A9EF5-782F-DA8A-7F03-ED80CE48DF89" name="GLUMCI_FILMOVI_GLUMCI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>F1009FFC-519E-1F04-A1B4-35548CB0483B</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2860FBD9-D3A7-D0B1-182B-87053BF49336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C7EFF2D-66EF-62A7-313C-D9DF5CEB14D2" name="GLUMCI_FILMOVI_FILMOVI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>BAC8916F-60C6-5A9C-2B4C-2CD446ABEDAD</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="406AA92B-6120-0C3E-CA01-C6B79057FF8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

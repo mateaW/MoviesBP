@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9845F402-265E-0B25-B7D1-EE79673823AB" containerWithKeyObject="4A8B7041-003C-F850-F018-41946FD2A98E" localFKIndex="130B9D06-28FB-1AAF-01C4-D656898C60C5" name="SERIJE_DRZAVE_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>DCF23D52-9C74-F89D-AE96-913D342109DF</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B67361EA-BBA1-92E3-253B-DC9B0EEB6198</referredTableID>
+<keyObject>25DEE14F-9279-AEC5-8B7D-9F8A39CC794C</keyObject>
+<referredKeyID>25DEE14F-9279-AEC5-8B7D-9F8A39CC794C</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

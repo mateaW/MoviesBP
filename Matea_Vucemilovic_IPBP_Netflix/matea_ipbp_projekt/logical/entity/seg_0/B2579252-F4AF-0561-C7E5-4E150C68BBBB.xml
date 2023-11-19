@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2579252-F4AF-0561-C7E5-4E150C68BBBB" name="RACUN">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:45:06 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>RACUNI</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Racuna" id="BE9C9533-85B2-9333-3859-6928A6DBA013">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:45:22 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_Racuna" id="B863FB37-B285-CD5E-B29D-4DB718CA0480">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:45:32 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum" id="4A459DDC-0E0B-2725-7CEC-2F768AE69C9F">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:45:52 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Plana" id="D195B5E7-6A27-0344-7EA6-100DF4A56993">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:00:02 UTC</createdTime>
+<generatorID>B21D3B75-35E0-06A4-1E0E-8C3BD98FE72B</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>969EC58E-EF7D-A44A-8B9A-9BC64F021C2D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37FFF2B6-5FD8-7D95-4FDA-FC477F489F78" name="RACUN PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:45:31 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE9C9533-85B2-9333-3859-6928A6DBA013</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3AF1FA67-5DCB-ECA8-C07B-227AC195A751" name="Broj_Racuna">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:21:47 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<newElementsIDs>B863FB37-B285-CD5E-B29D-4DB718CA0480</newElementsIDs>
+<usedAttributes>
+<attributeRef>B863FB37-B285-CD5E-B29D-4DB718CA0480</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55AC4F0D-B92E-EAA7-9B9F-38E5B40C53B2" name="FILM_KORISNIK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:47:18 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>FILMOVI_KORISNICI</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Filma" id="3931C6F8-03DF-D9E1-B1E5-63EC7DC13872">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:56:50 UTC</createdTime>
+<generatorID>88A408CD-9D2E-DFB8-961B-EC4D361F754E</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>78529855-D46E-D8DE-6EB1-7E7CA0824C97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Korisnika" id="81CA2A43-87DC-01B7-279B-3FDE87D1140F">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:56:57 UTC</createdTime>
+<generatorID>D5A65F1D-1848-3133-6A5E-0B956430384A</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>AEDDACF9-B30F-278D-9BD9-8FD58B089B66</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Prijevoda" id="E24BCE7F-4AAD-B3BC-DBD1-47AC04E4166F">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:58:05 UTC</createdTime>
+<generatorID>B1D329FF-91D2-1FAE-BE6C-7AE0D3C07147</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>D6C5E6FD-3C22-9FB9-D9D1-0E5B0FD756BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="030BF3DF-2C52-D62F-3D2B-4610E9C2843C" name="FILM_KORISNIK PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:19:11 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3931C6F8-03DF-D9E1-B1E5-63EC7DC13872</attributeRef>
+<attributeRef>3931C6F8-03DF-D9E1-B1E5-63EC7DC13872</attributeRef>
+<attributeRef>81CA2A43-87DC-01B7-279B-3FDE87D1140F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

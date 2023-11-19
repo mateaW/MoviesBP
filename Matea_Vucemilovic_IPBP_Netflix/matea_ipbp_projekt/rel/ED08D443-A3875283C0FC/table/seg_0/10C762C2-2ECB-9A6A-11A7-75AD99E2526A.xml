@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10C762C2-2ECB-9A6A-11A7-75AD99E2526A" name="EPIZODE_KORISNICI">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>598C4E2D-4A5E-0976-DD6B-89E7DC174C8F</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EPIZODE_ID_Epizode" id="0CFEF421-93EC-28D3-3F5B-B46D8C916B8A">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>7C219CCF-E206-33F0-1072-78E676914198</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE2EDFC6-9762-02DD-4AF3-598E27CFEBB6" referredColumn="544B90DD-38CF-6168-2195-6D0142BAA3CC"/>
+</associations>
+</Column>
+<Column name="KORISNICI_ID_Korisnika" id="9BE37506-2AEE-C8E6-E6FD-2C6A3C1DDF9A">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>E39CA232-4B28-BB44-ECCE-E4699574E081</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCBE5BDD-5C60-55A5-FB59-C25BBA872740" referredColumn="5EAE7A9A-9CBA-999C-F8BE-5B0F6F4052CA"/>
+</associations>
+</Column>
+<Column name="PRIJEVODI_ID_Prijevoda" id="D437F812-66B4-12FF-5856-9E2878FB799A">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>B30F86BF-940C-C0E5-1FF0-6EA055CC88D8</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BEF504F-977B-9EB8-6B52-7027C48ED356" referredColumn="D515E52B-18CE-31AC-0009-C9FB0978F17C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="937D5D1B-E702-3C8B-17E2-8F20705F9EE2" name="EPIZODE_KORISNICI_PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>F8486E0D-793F-22BC-BA07-6E397D1EF41C</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CFEF421-93EC-28D3-3F5B-B46D8C916B8A"/>
+<colUsage columnID="9BE37506-2AEE-C8E6-E6FD-2C6A3C1DDF9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AE7C392-E514-9064-C9B2-4285A982858D" name="EPIZODE_KORISNICI_KORISNICI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>FFB7504B-E1D6-9D13-6240-0481CCDA0D51</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BE37506-2AEE-C8E6-E6FD-2C6A3C1DDF9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DB38F7C-7EB7-8558-9A8C-FDDE106C0681" name="EPIZODE_KORISNICI_PRIJEVODI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>A26AE478-EB91-04B9-F6AA-53C267A812E6</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D437F812-66B4-12FF-5856-9E2878FB799A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D6BEA07-37D5-CC50-664F-7985FC9327F6" name="EPIZODE_KORISNICI_EPIZODE_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>B4CB2C31-B4E7-70F3-62B5-14D99FAE3EEE</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CFEF421-93EC-28D3-3F5B-B46D8C916B8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

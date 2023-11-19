@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CE68148-A0AE-2283-CFAB-D42045E0C88D" name="EPIZODE">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>FFD3A461-6939-6C08-99EB-00D203CA15E8</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Epizode" id="544B90DD-38CF-6168-2195-6D0142BAA3CC">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>0B0E5316-ADB2-774B-33DC-1BBA28B971A4</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>EPIZODA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>EPIZODA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="ABBD9246-C518-DBE3-0CFA-EF3FC829B30B">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>46007DC1-112F-9F78-BC24-1F397C3F4442</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Trajanje" id="C2A67570-0E20-5AFD-D348-87B312BF46E8">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>E2DB9E21-8D9A-D82E-3895-50C124FF946A</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="9AF99CA1-FC1F-3302-89EF-0A2541262E53">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>79771BD6-817F-159D-85E6-F524DC66CE3F</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEZONE_ID_Sezone" id="3B4F5B73-CA51-6F90-6212-EC9E59396565">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>0D9CBE6F-6EF6-4458-762B-D92E3861E70E</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F00CE640-EB85-FA4C-DF22-22EADA6D06C2" referredColumn="7A9E333F-80E9-C0B2-9F5D-D1A6D32D95B6"/>
+</associations>
+</Column>
+<Column name="REDATELJI_ID_Redatelja" id="C7716092-9D2A-5C88-CD35-D74A2A7B80B5">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>0F7EF3FC-77C8-BE0A-54B1-31B5A930B021</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="254E7950-2140-D756-BBBE-63285F8B0491" referredColumn="B4DFA339-81C5-0FCA-BDA6-485E08332513"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B78CDEE3-B565-A588-4278-5927DD7FA755" name="EPIZODE_PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>B7035701-3C10-6E36-A655-1E73E2757A12</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="544B90DD-38CF-6168-2195-6D0142BAA3CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F708F18A-179E-E2EB-00C4-210272830C4A" name="EPIZODE_REDATELJI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>7A51EF79-5206-1527-7FE5-60AAD8694E24</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7716092-9D2A-5C88-CD35-D74A2A7B80B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE9874EE-C1B5-FA01-500E-77C28C8AB0D1" name="EPIZODE_SEZONE_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>7FE7F29F-9334-0FD1-B818-211206A8F97D</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B4F5B73-CA51-6F90-6212-EC9E59396565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

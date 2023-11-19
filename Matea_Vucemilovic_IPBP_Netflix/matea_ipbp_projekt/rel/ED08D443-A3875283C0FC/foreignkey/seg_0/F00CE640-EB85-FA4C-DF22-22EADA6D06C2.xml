@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F00CE640-EB85-FA4C-DF22-22EADA6D06C2" containerWithKeyObject="4CE68148-A0AE-2283-CFAB-D42045E0C88D" localFKIndex="FE9874EE-C1B5-FA01-500E-77C28C8AB0D1" name="EPIZODE_SEZONE_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>7FE7F29F-9334-0FD1-B818-211206A8F97D</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D664B7D9-A83F-C217-4BB2-D1C4F0AC2DF4</referredTableID>
+<keyObject>D9121905-5431-47E8-ED28-50BBC191E64A</keyObject>
+<referredKeyID>D9121905-5431-47E8-ED28-50BBC191E64A</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

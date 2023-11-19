@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F3902669-F650-9F77-7877-36C78FACBF4B" containerWithKeyObject="8EA0CA94-E26B-B8D2-8F64-BD13BC1729E3" localFKIndex="F6ABEB47-0ECC-5F24-F3FE-2567DB3013FE" name="GLUMCI_EPIZODE_GLUMCI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>E7A3FE55-9D2C-E8E2-3BDD-206B14928993</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C87FA7BB-1F8C-19AA-E636-958CE764F6E1</referredTableID>
+<keyObject>A22173F3-1492-F3E2-A4F9-A0BE070FE2B5</keyObject>
+<referredKeyID>A22173F3-1492-F3E2-A4F9-A0BE070FE2B5</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

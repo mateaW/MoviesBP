@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6B2DBE7-DB4B-7B27-2032-4E4425FE20A3" name="KARTICA">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:42:48 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>KARTICE</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Kartice" id="E867915A-2C17-5012-9171-FD1B01383990">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:42:57 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_Kartice" id="28756C72-059F-6168-B64D-CCF98463233D">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:43:10 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CCV" id="E727AABF-5EF2-1D7D-99C7-A8E56DF705EF">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:44:09 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_Isteka" id="76400B90-45DD-CE13-9A0E-2A348F60AAC9">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:44:33 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28DAA0AA-0060-4E62-04D0-5EB0B20C2EDA" name="KARTICA PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:43:07 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E867915A-2C17-5012-9171-FD1B01383990</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="72EA8275-CD74-FBBF-88DF-EA77D99978DF" name="Broj_Kartice">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:23:38 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<newElementsIDs>28756C72-059F-6168-B64D-CCF98463233D</newElementsIDs>
+<usedAttributes>
+<attributeRef>28756C72-059F-6168-B64D-CCF98463233D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

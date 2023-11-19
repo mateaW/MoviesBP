@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="C2405902-5A3A-4FA7-99E4-4C98986D2A07">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:13:56 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

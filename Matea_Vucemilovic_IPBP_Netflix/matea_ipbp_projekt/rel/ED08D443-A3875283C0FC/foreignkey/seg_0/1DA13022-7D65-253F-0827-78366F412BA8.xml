@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1DA13022-7D65-253F-0827-78366F412BA8" containerWithKeyObject="0F909103-A928-1EB8-79AD-E603EBE484BC" localFKIndex="F609D77A-9434-90A5-1598-97152BDB6085" name="FILMOVI_REDATELJI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>0865B872-FEF1-A9EE-74BC-B023D0381A8E</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BDFE9F87-FFE5-5CA8-F7AB-3EEDE3086F8E</referredTableID>
+<keyObject>4F058444-EBF3-42B5-8A4E-C28C06D8205A</keyObject>
+<referredKeyID>4F058444-EBF3-42B5-8A4E-C28C06D8205A</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

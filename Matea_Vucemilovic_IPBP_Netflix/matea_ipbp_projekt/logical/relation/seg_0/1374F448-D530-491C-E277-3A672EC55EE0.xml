@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="1374F448-D530-491C-E277-3A672EC55EE0">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:54:47 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<sourcePk>C4AAE71E-33E8-07F7-1F00-21872D087421</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F2B3591D-7A79-64AA-AB99-3A29D2919D21</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>216A3484-953B-2978-DF67-DF102F6ADE5E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

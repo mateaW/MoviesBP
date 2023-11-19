@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F909103-A928-1EB8-79AD-E603EBE484BC" name="FILMOVI">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>9A56F402-DE2F-2696-369D-4C6DFC3A6019</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Filma" id="1A338199-3677-B642-6EE0-EF6A4BFBDF42">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>78529855-D46E-D8DE-6EB1-7E7CA0824C97</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>FILM_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>FILM_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="31213941-97BD-7063-3D54-3A71A4E7FAFB">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>C56A563B-4C56-1012-E9EB-EBFDEDEB2A4D</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godina" id="6C6E8216-7A52-2D36-290B-29E6E7FF0216">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>F7F48409-E6C5-FEAE-D230-CFDCFE1674AC</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Trajanje" id="75B0DC2A-432E-017A-BB8B-8AB47E7EAC51">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>5D297E47-43C1-65B6-3D1A-DBE1F59B32A7</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="2D87B4B5-46B3-824B-59DD-9940590631E1">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>FB1F12CA-9AAB-CD35-0736-F4336A6EDE66</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRZAVE_ID_Drzave" id="239A6EFE-B2D7-4967-A1B7-53A6BEC878EA">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>F4328271-0690-414D-006F-B7E830B6E9D1</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0235782-A02D-425C-7327-3EEBAED36F22" referredColumn="0984D0B0-1827-F3FA-C79F-262FD601D778"/>
+</associations>
+</Column>
+<Column name="REDATELJI_ID_Redatelja" id="EFBEAEEF-9FE6-1ADA-3F29-495707D5A63F">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>A09B2997-1D7F-1DEB-507F-48216307C38F</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DA13022-7D65-253F-0827-78366F412BA8" referredColumn="B4DFA339-81C5-0FCA-BDA6-485E08332513"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63837E5E-3320-0BB0-9B9D-5C0A79F78E9F" name="FILMOVI_PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>35EB83FD-FC5B-D34F-59DA-EEF8A4E2B1DD</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A338199-3677-B642-6EE0-EF6A4BFBDF42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAAD43AE-474F-8EE0-24FD-3AF5836F360B" name="FILMOVI_DRZAVE_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>2A969DAC-D7CB-65D8-45CB-428AE7C09E24</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="239A6EFE-B2D7-4967-A1B7-53A6BEC878EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F609D77A-9434-90A5-1598-97152BDB6085" name="FILMOVI_REDATELJI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>0865B872-FEF1-A9EE-74BC-B023D0381A8E</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFBEAEEF-9FE6-1ADA-3F29-495707D5A63F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

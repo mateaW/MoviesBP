@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E48A3660-D926-57F4-BDCB-69262248193E" mainViewID="51947F62-3CBC-882C-C938-5490F41885C1">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:13:56 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

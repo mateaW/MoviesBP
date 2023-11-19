@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDC9D7D8-DBCA-A74E-DB01-540D28AA77CA" name="FILMOVI_KORISNICI">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>55AC4F0D-B92E-EAA7-9B9F-38E5B40C53B2</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FILMOVI_ID_Filma" id="5AE941E1-E54A-4A8B-49F7-5B5F82974A8C">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>3931C6F8-03DF-D9E1-B1E5-63EC7DC13872</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B553745-7EAE-96D3-24B3-64647413C882" referredColumn="1A338199-3677-B642-6EE0-EF6A4BFBDF42"/>
+</associations>
+</Column>
+<Column name="KORISNICI_ID_Korisnika" id="5F27DEFA-95B3-368F-9034-C3C2507D79DD">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>81CA2A43-87DC-01B7-279B-3FDE87D1140F</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CF316FF-60A7-02A2-96E5-FCD52A7D2E8E" referredColumn="5EAE7A9A-9CBA-999C-F8BE-5B0F6F4052CA"/>
+</associations>
+</Column>
+<Column name="PRIJEVODI_ID_Prijevoda" id="B28D63DD-0295-06E6-150F-8D26C831237D">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>E24BCE7F-4AAD-B3BC-DBD1-47AC04E4166F</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="711D57AA-E2E2-8F41-7322-C5C8C695E6FE" referredColumn="D515E52B-18CE-31AC-0009-C9FB0978F17C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7621A09A-8BA1-F7B8-D388-F5D47B49A012" name="FILMOVI_KORISNICI_PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>030BF3DF-2C52-D62F-3D2B-4610E9C2843C</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AE941E1-E54A-4A8B-49F7-5B5F82974A8C"/>
+<colUsage columnID="5F27DEFA-95B3-368F-9034-C3C2507D79DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29C8A3C6-0D5C-D242-28B4-E444AD52ED20" name="FILMOVI_KORISNICI_FILMOVI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>88A408CD-9D2E-DFB8-961B-EC4D361F754E</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AE941E1-E54A-4A8B-49F7-5B5F82974A8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA365896-2D3A-D8FF-6BC9-8A3350F48523" name="FILMOVI_KORISNICI_KORISNICI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>D5A65F1D-1848-3133-6A5E-0B956430384A</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F27DEFA-95B3-368F-9034-C3C2507D79DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC850007-8B58-4CFD-849E-33681F8E0C16" name="FILMOVI_KORISNICI_PRIJEVODI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>B1D329FF-91D2-1FAE-BE6C-7AE0D3C07147</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B28D63DD-0295-06E6-150F-8D26C831237D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

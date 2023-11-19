@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9DC65FA-D6E2-B56A-5167-320694EC0FC1" name="GLUMAC_EPIZODA">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:33:28 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>GLUMCI_EPIZODE</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Naziv_Lika" id="D79ABAAE-D324-6024-CFFC-B053580CB56A">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:33:59 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Epizode" id="B2DC05C6-4604-07FB-5BD5-BA9A9711F736">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:55:35 UTC</createdTime>
+<generatorID>7DC15059-BDF9-86FF-4E58-F7BA92209041</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>0B0E5316-ADB2-774B-33DC-1BBA28B971A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Glumca" id="77F4F5E3-D556-3B0F-C423-4DA9B66012B4">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:56:10 UTC</createdTime>
+<generatorID>E7A3FE55-9D2C-E8E2-3BDD-206B14928993</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>6987B1E0-D91A-431D-8781-DC1E92D8D073</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FEF0D579-2AA5-0400-BD09-58622158C849" name="GLUMAC_EPIZODA PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:18:38 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B2DC05C6-4604-07FB-5BD5-BA9A9711F736</attributeRef>
+<attributeRef>B2DC05C6-4604-07FB-5BD5-BA9A9711F736</attributeRef>
+<attributeRef>77F4F5E3-D556-3B0F-C423-4DA9B66012B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

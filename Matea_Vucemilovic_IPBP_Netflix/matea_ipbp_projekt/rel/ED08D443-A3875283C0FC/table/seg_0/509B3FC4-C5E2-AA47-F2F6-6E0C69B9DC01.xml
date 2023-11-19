@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="509B3FC4-C5E2-AA47-F2F6-6E0C69B9DC01" name="RACUNI">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>B2579252-F4AF-0561-C7E5-4E150C68BBBB</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Racuna" id="8BF37422-06DD-A112-3195-8200C3E9EBCF">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>BE9C9533-85B2-9333-3859-6928A6DBA013</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>RACUN_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>RACUN_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Broj_Racuna" id="2591857A-7763-D7FA-9C20-ED40EFFDE0C2">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>B863FB37-B285-CD5E-B29D-4DB718CA0480</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="0DB19FBB-47FC-6E35-E309-7BA4960F8C4A">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>4A459DDC-0E0B-2725-7CEC-2F768AE69C9F</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLANOVI_ID_Plana" id="03AD77D2-77FE-28EA-0E0C-8A0CD233F37E">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>D195B5E7-6A27-0344-7EA6-100DF4A56993</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB11E4B7-A21B-C0AE-DA2A-D1AA5B70CFE8" referredColumn="1F42A564-E1E5-65A8-43A8-5BFC3193DB55"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6937C05-A7C9-4121-4762-235F0F1D412E" name="RACUNI_PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>37FFF2B6-5FD8-7D95-4FDA-FC477F489F78</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BF37422-06DD-A112-3195-8200C3E9EBCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="826711F2-CBB3-36C8-7484-D258EBFB8579" name="RACUNI_Broj_Racuna_UN">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>3AF1FA67-5DCB-ECA8-C07B-227AC195A751</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2591857A-7763-D7FA-9C20-ED40EFFDE0C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A75D50B7-A346-5C89-9844-71A45445B7F8" name="RACUNI_PLANOVI_FK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:25:58 UTC</createdTime>
+<generatorID>B21D3B75-35E0-06A4-1E0E-8C3BD98FE72B</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03AD77D2-77FE-28EA-0E0C-8A0CD233F37E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

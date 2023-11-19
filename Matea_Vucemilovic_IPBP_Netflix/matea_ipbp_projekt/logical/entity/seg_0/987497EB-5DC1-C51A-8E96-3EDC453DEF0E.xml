@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="987497EB-5DC1-C51A-8E96-3EDC453DEF0E" name="CLANARINA">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:41:16 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CLANARINE</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Clanarine" id="6742689C-2A7F-B0DD-C2B6-4509A5D4C5CD">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:41:27 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="E-Mail" id="44E6ABFD-837E-8187-C0CE-2150D0FBE373">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:41:54 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_Mobitela" id="02C6E379-2B82-E754-48B6-ED036B22CA4F">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:42:13 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Drzave" id="9B7CC1CB-013A-784D-33BB-A15AD881C97F">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:58:50 UTC</createdTime>
+<generatorID>BFC5BF39-5BBE-13FB-3CDC-51CAC8BF0D04</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>4DDBA322-7577-EF32-D12D-DA1D20E7F98E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Plana" id="56C532F3-A469-B519-3E81-33E6DC6A0BE0">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:59:56 UTC</createdTime>
+<generatorID>3403D50D-2270-396A-172E-222604E518EE</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>969EC58E-EF7D-A44A-8B9A-9BC64F021C2D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Kartice" id="5B117392-DD24-D1FE-1DC5-16FCA39C5184">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:00:11 UTC</createdTime>
+<generatorID>EA45E19D-7CD5-1BFB-E344-93A86A22074E</generatorID>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<referedAttribute>E867915A-2C17-5012-9171-FD1B01383990</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53A72070-4461-DF2C-B9DA-E29EA92AC3E8" name="CLANARINA PK">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 15:41:53 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6742689C-2A7F-B0DD-C2B6-4509A5D4C5CD</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="1292A85E-528D-BCD3-D074-D4016C002342" name="E-Mail">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:23:08 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<newElementsIDs>44E6ABFD-837E-8187-C0CE-2150D0FBE373</newElementsIDs>
+<usedAttributes>
+<attributeRef>44E6ABFD-837E-8187-C0CE-2150D0FBE373</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="FCA50FA9-8E4E-A80C-EEB0-3733F39794DC" name="Broj_Mobitela">
+<createdBy>matea</createdBy>
+<createdTime>2023-03-16 16:24:17 UTC</createdTime>
+<ownerDesignName>matea_ipbp_projekt</ownerDesignName>
+<engineerTo>
+<item key="ED08D443-68D9-87A9-1685-A3875283C0FC" value="true"/>
+</engineerTo>
+<newElementsIDs>02C6E379-2B82-E754-48B6-ED036B22CA4F</newElementsIDs>
+<usedAttributes>
+<attributeRef>02C6E379-2B82-E754-48B6-ED036B22CA4F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
